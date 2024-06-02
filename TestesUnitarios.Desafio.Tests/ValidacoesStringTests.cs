@@ -9,8 +9,6 @@ public class ValidacoesStringTests
     [Fact]
     public void DeveRetornar6QuantidadeCaracteresDaPalavraMatrix()
     {
-        //TODO: Corrigir a variável "texto" e "resultadoEsperado" da seção Arrange
-
         // Arrange
         var texto = "Matrix";
         var resultadoEsperado = 6;
@@ -53,8 +51,6 @@ public class ValidacoesStringTests
     [Fact]
     public void TextoDeveTerminarComAPalavraProcurado()
     {
-        //TODO: Corrigir a variável "textoProcurado" seção Arrange
-
         // Arrange
         var texto = "Começo, meio e fim do texto procurado";
         var textoProcurado = "procurado";
